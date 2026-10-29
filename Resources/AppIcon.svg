@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Storager app icon: a treemap of colored blocks on a light tile. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F8F8"/>
+      <stop offset="1" stop-color="#E9E9EC"/>
+    </linearGradient>
+    <filter id="shadowBlur" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect x="100" y="112" width="824" height="824" rx="185" fill="#000000" opacity="0.30" filter="url(#shadowBlur)"/>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <!-- treemap blocks inside a 600x600 area at (212,212) -->
+  <rect x="212" y="212" width="356" height="600" rx="28" fill="#3B82F6"/>
+  <rect x="580" y="212" width="232" height="300" rx="28" fill="#22C55E"/>
+  <rect x="580" y="524" width="232" height="148" rx="24" fill="#F59E0B"/>
+  <rect x="580" y="684" width="110" height="128" rx="20" fill="#A855F7"/>
+  <rect x="702" y="684" width="110" height="128" rx="20" fill="#9CA3AF"/>
+</svg>
